@@ -14,7 +14,9 @@ const Layout = ({ children, data }) => (
         { name: 'keywords', content: 'sample, something' },
       ]}
     />
+    {/* Header */}
     <Header siteTitle={data.site.siteMetadata.title} />
+    {/* Body */}
     <div
       style={{
         margin: '0 auto',
@@ -25,6 +27,8 @@ const Layout = ({ children, data }) => (
     >
       {children()}
     </div>
+    {/* Right Side  */}
+    {/* Footer */}
   </div>
 )
 

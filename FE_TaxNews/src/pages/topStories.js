@@ -1,8 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-import Layout from '../layouts'
-
 export default ({ data }) => {
   let dataArr = data.allMongodbTaxnewsbackendTopstories.edges
   console.log(dataArr)
